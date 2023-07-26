@@ -211,10 +211,11 @@
   .BaseDivInf .top h1 {
     color: #000;
     font-family: Cairo;
-    font-size: 35px;
+    font-size: 25px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    text-align: center;
   }
 
   .BaseDivInf .top h4 {
@@ -224,15 +225,16 @@
     font-style: normal;
     font-weight: 300;
     line-height: normal;
+    text-align: center;
   }
 
   .BaseDivInf .top p {
     color: #000;
-    text-align: right;
     font-family: Cairo;
-    font-size: 15px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    text-align: center;
   }
 }

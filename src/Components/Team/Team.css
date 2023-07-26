@@ -128,3 +128,30 @@
   gap: 0.3rem;
   font-size: 35px;
 }
+
+@media screen and (max-width: 961px) {
+  .baseDivTeam h1 {
+    color: #000;
+    font-family: Cairo;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+  }
+
+  .BaseDivCartTeam {
+    width: 310px;
+    height: max-content;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background: #fff;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.18);
+    padding: 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+  }
+}

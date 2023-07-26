@@ -41,10 +41,9 @@
   line-height: normal;
 }
 
-.BaseDivServices .contentSer{
-    width: 100%;
-    height: 100%;
-
+.BaseDivServices .contentSer {
+  width: 100%;
+  height: 100%;
 }
 
 .BaseDivServicesCart {
@@ -61,23 +60,44 @@
   color: #000000;
 }
 
-
-.BaseDivServicesCart h3{
-    color: #000;
-    text-align: center;
-    font-family: Cairo;
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
+.BaseDivServicesCart h3 {
+  color: #000;
+  text-align: center;
+  font-family: Cairo;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
 }
 
-.BaseDivServicesCart p{
-    color: #000;
+.BaseDivServicesCart p {
+  color: #000;
+  text-align: center;
+  font-family: Cairo;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+@media screen and (max-width: 961px) {
+  .BaseDivServices .titleSer h3 {
+    color: #fff;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .BaseDivServices .titleSer p {
+    color: #fff;
     text-align: center;
     font-family: Cairo;
-    font-size: 20px;
+    font-size: 17px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+  }
 }

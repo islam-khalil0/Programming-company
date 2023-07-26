@@ -107,7 +107,7 @@
 
 .info {
   width: 100%;
-  height: 9rem;
+  height: max-content;
   padding: 0 5rem;
   background-color: var(--infoBg-color);
   position: absolute;
