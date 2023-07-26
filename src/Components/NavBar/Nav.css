@@ -103,10 +103,10 @@
   display: none;
   z-index: 7;
   cursor: pointer;
-  transition: all ease .30s;
+  transition: all ease 0.3s;
 }
 
-.logo button:hover{
+.logo button:hover {
   transform: rotate(180deg);
 }
 
@@ -162,5 +162,12 @@
     font-weight: 300;
     cursor: pointer;
     width: 90px;
+  }
+
+  .logo {
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
   }
 }
