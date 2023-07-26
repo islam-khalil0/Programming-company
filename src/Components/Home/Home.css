@@ -355,7 +355,7 @@
 @media screen and (max-width: 682px) {
   .info {
     justify-content: space-between;
-    gap: .2rem;
+    align-items: center;
   }
 
   .info .target {
