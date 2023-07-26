@@ -284,7 +284,7 @@
   .baseDivHome {
     width: 100%;
     height: max-content;
-    padding: 5rem 5rem 10rem 5rem;
+    padding: 5rem 5rem 13rem 5rem;
     background: var(--bg-home);
     display: flex;
     flex-direction: column;
@@ -357,9 +357,13 @@
     justify-content: center;
   }
 
+  .info .target {
+    gap: 0.3rem;
+  }
+
   .info .target h3 {
     line-height: normal;
-    text-align: right;
+    text-align: center;
     font-family: Poppins;
     color: var(--white-background);
     font-size: 20px;
@@ -367,7 +371,7 @@
 
   .info .target p {
     line-height: normal;
-    text-align: right;
+    text-align: center;
     font-family: Poppins;
     color: var(--white-background);
     font-size: 14px;
