@@ -15,7 +15,7 @@ import "swiper/css/scrollbar";
 import { Virtual } from "swiper/modules";
 const Services = () => {
   return (
-    <div className="BaseDivServices">
+    <div className="BaseDivServices" id="services">
       <div className="titleSer">
         <h3>خدمتنا</h3>
         <p>كل الخدمات التي تحتاجونها في مكان واحد وبأيد أمينة</p>

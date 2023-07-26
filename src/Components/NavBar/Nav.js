@@ -25,11 +25,21 @@ const Nav = () => {
       </div>
 
       <div className={OpenMenu ? "linksNav" : "linksNav open"}>
-        <p>فريق العمل</p>
-        <p>شركائنا</p>
-        <p>من نحن</p>
-        <p>خدمانتا</p>
-        <p>الرئيسية</p>
+        <a href="#team">
+          <p>فريق العمل</p>
+        </a>
+        <a href="#home">
+          <p>شركائنا</p>
+        </a>
+        <a href="#we">
+          <p>من نحن</p>
+        </a>
+        <a href="#services">
+          <p>خدمانتا</p>
+        </a>
+        <a href="#home">
+          <p>الرئيسية</p>
+        </a>
       </div>
 
       <div className="logo">

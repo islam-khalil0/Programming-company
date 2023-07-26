@@ -7,7 +7,7 @@ const Team = () => {
   const [category, setCategory] = useState("");
 
   return (
-    <div className="baseDivTeam">
+    <div className="baseDivTeam" id="team">
       <h1>فريق العمل</h1>
       <div className="cateButton">
         <button

@@ -6,7 +6,7 @@ import { BsFileCode } from "react-icons/bs";
 
 const Info = () => {
   return (
-    <div className="BaseDivInf">
+    <div className="BaseDivInf" id="we">
       <div className="top">
         <h1>من نحن</h1>
         <h4>هؤلاء وثقوا بنا , كن انت التالي</h4>

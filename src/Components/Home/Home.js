@@ -11,7 +11,7 @@ import bgFilter from "../../images/bgFilter.png";
 const Home = () => {
   return (
     <>
-      <img src={bgFilter} className="bgFilter" />
+      <img src={bgFilter} className="bgFilter" id="home"/>
       <div className="handleUnderDiv">
         <div className="baseDivHome">
           <div className="imageLending">
