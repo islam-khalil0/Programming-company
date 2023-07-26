@@ -27,7 +27,7 @@ const Services = () => {
           Virtual
           loop={true}
           spaceBetween={30}
-          slidesPerView="auto"
+          slidesPerView={1}
           navigation
           pagination={{ clickable: true }}
         >
