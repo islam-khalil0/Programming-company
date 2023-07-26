@@ -1,0 +1,238 @@
+:root {
+  --bg-home: #171836;
+  --white-background: #fff;
+  --color-p: #ef2b2d;
+  --color-links: #ef4649;
+  --color-links-hover: #ff0004;
+  --border-color: #3fb3e6;
+  --infoBg-color: rgba(63, 179, 230, 0.6);
+}
+
+.BaseDivInf {
+  padding: 3rem 5rem;
+  width: 100%;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.BaseDivInf .top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  width: 100%;
+}
+
+.BaseDivInf .top h1 {
+  color: #000;
+  font-family: Cairo;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.BaseDivInf .top h4 {
+  color: #000;
+  font-family: Cairo;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.BaseDivInf .top p {
+  color: #000;
+  text-align: right;
+  font-family: Cairo;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.BaseDivInf .under {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.BaseDivInf .under .infoCard {
+  width: 18rem;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.15);
+  padding: 2.5rem;
+  position: relative;
+  transition: all ease 0.3s;
+}
+
+.BaseDivInf .under .infoCard .number {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 1rem;
+  background: var(--color-p);
+  border-radius: 0 0.9rem 0 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.BaseDivInf .under .infoCard:hover {
+  background: var(--color-p);
+}
+
+.BaseDivInf .under .infoCard:hover .number {
+  background: var(--white-background);
+  color: var(--color-p);
+}
+
+.BaseDivInf .under .infoCard:hover .number h4 {
+  color: var(--color-p);
+}
+
+.BaseDivInf .under .infoCard:hover .content h3 {
+  color: var(--white-background);
+}
+
+.BaseDivInf .under .infoCard:hover .content p {
+  color: var(--white-background);
+}
+
+.BaseDivInf .under .infoCard .number h4 {
+  color: var(--white-background);
+  font-family: Cairo;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.BaseDivInf .under .infoCard .icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  color: var(--color-p);
+}
+
+.BaseDivInf .under .infoCard .content {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.BaseDivInf .under .infoCard .content p {
+  color: rgba(0, 0, 0, 0.6);
+  text-align: right;
+  font-family: Cairo;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.BaseDivInf .under .infoCard .content h3 {
+  color: #000;
+  text-align: center;
+  font-family: Cairo;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.BaseDivInf .under .infoImage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.BaseDivInf .under .infoImage img {
+  width: 30rem;
+}
+
+@media screen and (max-width: 1403px) {
+  .BaseDivInf .under .infoImage {
+    width: max-content;
+  }
+
+  .BaseDivInf .under .infoImage img {
+    width: 30rem;
+  }
+}
+
+@media screen and (max-width: 1063px) {
+  .BaseDivInf .under .infoImage {
+    width: max-content;
+  }
+
+  .BaseDivInf .under .infoImage img {
+    width: 15rem;
+  }
+}
+
+@media screen and (max-width: 793px) {
+  .BaseDivInf .under .infoImage img {
+    display: none;
+  }
+
+  .BaseDivInf .under {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .BaseDivInf .top h1 {
+    color: #000;
+    font-family: Cairo;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .BaseDivInf .top h4 {
+    color: #000;
+    font-family: Cairo;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+  }
+
+  .BaseDivInf .top p {
+    color: #000;
+    text-align: right;
+    font-family: Cairo;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+}

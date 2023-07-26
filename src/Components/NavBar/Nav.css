@@ -1,0 +1,166 @@
+:root {
+  --color-p: #ef2b2d;
+  --color-linksNav: #ef4649;
+  --color-linksNav-hover: #ff0004;
+  --border-color: #3fb3e6;
+}
+
+.baseDivNav {
+  padding: 1rem 2rem;
+  background: transparent;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  gap: 5rem;
+  width: 100%;
+  justify-items: center;
+}
+
+.D_l {
+  display: flex;
+  flex-direction: row;
+  width: max-content;
+  justify-content: space-between;
+  align-items: center;
+  background: transparent;
+  gap: 1rem;
+}
+
+.moonDiv {
+  background: black;
+  width: max-content;
+  padding: 0.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.moonDiv img {
+  width: 13px;
+}
+
+.l_Div {
+  width: 6.5rem;
+  background-color: transparent;
+  border: 1px solid var(--color-p);
+  height: 2.5rem;
+  border-radius: 0.3rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  cursor: pointer;
+  color: var(--color-p);
+  transition: all ease 0.2s;
+}
+
+.l_Div img {
+  width: 20px;
+}
+
+.l_Div:hover {
+  background: var(--color-p);
+  color: white;
+}
+
+.linksNav {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 90%;
+  gap: 1rem;
+}
+
+.linksNav p {
+  color: var(--color-linksNav);
+  font-family: Cairo;
+  font-size: 22px;
+  font-weight: 500;
+  cursor: pointer;
+  width: 90px;
+  z-index: 5;
+}
+
+.linksNav p:hover {
+  color: var(--color-linksNav-hover);
+}
+
+.logo {
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo img {
+  width: 45px;
+}
+
+.logo button {
+  background: transparent;
+  border: none;
+  color: none;
+  display: none;
+  z-index: 7;
+  cursor: pointer;
+  transition: all ease .30s;
+}
+
+.logo button:hover{
+  transform: rotate(180deg);
+}
+
+@media screen and (max-width: 981px) {
+  .baseDivNav {
+    padding: 1rem 2rem;
+    background: transparent;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5rem;
+    width: 100%;
+  }
+  .linksNav {
+    position: absolute;
+    top: 5.5rem;
+    right: 20px;
+    width: 200px;
+    height: max-content;
+    background-color: var(--border-color);
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    border-radius: 10px;
+    transition: all 0.2s ease;
+    z-index: 6;
+    padding: 1.5rem 0;
+  }
+
+  .open {
+    top: -15rem;
+    position: absolute;
+    right: 20px;
+    width: 200px;
+    height: max-content;
+    background-color: var(--border-color);
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    border-radius: 10px;
+    transition: all 0.2s ease;
+    z-index: 6;
+    padding: 1.5rem 0;
+  }
+
+  .logo button {
+    display: block;
+  }
+
+  .linksNav p {
+    color: var(--color-linksNav);
+    font-family: Cairo;
+    font-size: 15px;
+    font-weight: 300;
+    cursor: pointer;
+    width: 90px;
+  }
+}

@@ -1,0 +1,172 @@
+:root {
+  --bg-home: #171836;
+  --white-background: #fff;
+  --color-p: #ef2b2d;
+  --color-links: #ef4649;
+  --color-links-hover: #ff0004;
+  --border-color: #3fb3e6;
+  --infoBg-color: rgba(63, 179, 230, 0.6);
+}
+
+.BaseDivSteps {
+  padding: 3rem 5rem;
+  width: 100%;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+  border-radius: 20px 20px 0px 0px;
+  background: #fff;
+}
+
+.BaseDivSteps .titleSteps {
+  width: max-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.BaseDivSteps .titleSteps h1 {
+  color: #000;
+  text-align: right;
+  font-family: Cairo;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.BaseDivSteps .titleSteps h1 span {
+  color: #ef2b2d;
+  font-family: Cairo;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.BaseDivSteps .titleSteps h4 {
+  color: #000;
+  text-align: right;
+  font-family: Cairo;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.BaseDivSteps .contentSteps {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 6rem;
+  background: transparent;
+  background-image: url(../../images/bgSteps.png);
+}
+
+.stepsCart {
+  width: 18rem;
+  height: 10rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: var(--white-background);
+  -webkit-box-shadow: 2px 10px 20px -9px rgba(0, 0, 0, 0.48);
+  -moz-box-shadow: 2px 10px 20px -9px rgba(0, 0, 0, 0.48);
+  box-shadow: 2px 10px 20px -9px rgba(0, 0, 0, 0.327);
+  border-radius: 0.9rem;
+  padding: 3rem;
+  position: relative;
+  cursor: pointer;
+  transition: all ease 0.3s;
+}
+
+.stepsCart:hover {
+  background: var(--color-p);
+}
+
+.stepsCart:hover .number {
+  background: var(--white-background);
+  color: var(--color-p);
+}
+
+.stepsCart:hover .number h4 {
+  color: var(--color-p);
+}
+
+.stepsCart:hover .content h3 {
+  color: var(--white-background);
+}
+
+.stepsCart:hover .content p {
+  color: var(--white-background);
+}
+
+.stepsCart:hover .stepsCart .icon {
+  color: var(--white-background);
+}
+
+.stepsCart .number {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 1rem;
+  background: var(--color-p);
+  border-radius: 0 0.9rem 0 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.stepsCart .number h4 {
+  color: var(--white-background);
+  font-family: Cairo;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.stepsCart .icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+}
+
+.stepsCart .content {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.stepsCart .content p {
+  color: rgba(0, 0, 0, 0.6);
+  text-align: right;
+  font-family: Cairo;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.stepsCart .content h3 {
+  color: #000;
+  text-align: center;
+  font-family: Cairo;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}

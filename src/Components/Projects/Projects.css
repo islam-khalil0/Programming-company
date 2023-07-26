@@ -1,0 +1,183 @@
+.BaseDivProjects {
+  padding: 3rem 5rem;
+  width: 100%;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  border-radius: 20px 20px 0px 0px;
+  background: #171836;
+}
+
+.BaseDivProjects .topProj {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.BaseDivProjects .topProj h1 {
+  color: #fff;
+  text-align: right;
+  font-family: Poppins;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.BaseDivProjects .topProj p {
+  color: #fff;
+  font-family: Cairo;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-align: right;
+}
+
+.BaseDivProjects .projButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.BaseDivProjects .projButton button {
+  width: max-content;
+  padding: 8px 35px;
+  border-radius: 10px;
+  color: var(--brown-input-field);
+  font-family: Cairo;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 200;
+  line-height: 25px;
+  background: white;
+  border: 1px solid red;
+  cursor: pointer;
+  transition: all ease 0.3s;
+}
+
+.BaseDivProjects .projButton button:hover {
+  border-color: transparent;
+  background: red;
+  color: #fff;
+}
+
+.BaseDivProjects .projButton .selected {
+  border-color: transparent;
+  background: red;
+  color: #fff;
+}
+
+.BaseDivProjects .contentProjects {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+  background: transparent;
+}
+
+/* cart style */
+
+.card {
+  position: relative;
+  width: 300px;
+  height: 200px;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  perspective: 1000px;
+  box-shadow: 0 0 0 5px #ffffff80;
+  transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.card img {
+  width: 300px;
+  fill: #333;
+  transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2);
+}
+
+.card__content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #f2f2f2;
+  transform: rotateX(-90deg);
+  transform-origin: bottom;
+  transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.card:hover .card__content {
+  transform: rotateX(0deg);
+}
+
+.card__title {
+  margin: 0;
+  font-size: 24px;
+  color: #333;
+  font-weight: 700;
+}
+
+.card:hover img {
+  scale: 0;
+}
+
+.card__description {
+  margin: 10px 0 0;
+  font-size: 14px;
+  color: #777;
+  line-height: 1.4;
+}
+
+.card__content button {
+  padding: 0.4rem 1.5rem;
+  background: transparent;
+  border: 1px solid red;
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 7px 0 0 0;
+  transition: all ease 0.3s;
+  color: #333;
+}
+
+.card__content button:hover {
+  background: red;
+  color: white;
+}
+
+@media screen and (max-width: 961px) {
+  .BaseDivProjects .topProj h1 {
+    color: #fff;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .BaseDivProjects .topProj p {
+    color: #fff;
+    font-family: Cairo;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+  }
+}

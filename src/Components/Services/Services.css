@@ -1,0 +1,83 @@
+:root {
+  --bg-color: ;
+}
+
+.BaseDivServices {
+  padding: 3rem 5rem;
+  width: 100%;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  border-radius: 20px 20px 0px 0px;
+  background: #171836;
+}
+
+.BaseDivServices .titleSer {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  justify-content: start;
+  gap: 1rem;
+}
+
+.BaseDivServices .titleSer h3 {
+  color: #fff;
+  text-align: right;
+  font-family: Poppins;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.BaseDivServices .titleSer p {
+  color: #fff;
+  text-align: right;
+  font-family: Cairo;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.BaseDivServices .contentSer{
+    width: 100%;
+    height: 100%;
+
+}
+
+.BaseDivServicesCart {
+  width: 330px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  padding: 3rem 2rem;
+  background: #ffffff;
+  border-radius: 1rem;
+  gap: 4rem;
+  color: #000000;
+}
+
+
+.BaseDivServicesCart h3{
+    color: #000;
+    text-align: center;
+    font-family: Cairo;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.BaseDivServicesCart p{
+    color: #000;
+    text-align: center;
+    font-family: Cairo;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}

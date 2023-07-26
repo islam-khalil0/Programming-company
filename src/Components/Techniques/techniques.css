@@ -1,0 +1,127 @@
+.BaseDivTechniques {
+  padding: 3rem 5rem;
+  width: 100%;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  border-radius: 20px 20px 0px 0px;
+  background: #171836;
+}
+
+.BaseDivTechniques .titleTech {
+}
+
+.BaseDivTechniques .titleTech h1 {
+  color: #fff;
+  font-family: Cairo;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: right;
+}
+
+.BaseDivTechniques .techContent{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 6rem;
+    background: transparent;
+}
+
+
+.TechCart {
+    width: 20rem;
+    height: 12rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: var(--white-background);
+    -webkit-box-shadow: 2px 10px 20px -9px rgba(0, 0, 0, 0.48);
+    -moz-box-shadow: 2px 10px 20px -9px rgba(0, 0, 0, 0.48);
+    box-shadow: 2px 10px 20px -9px rgba(0, 0, 0, 0.327);
+    border-radius: 0.9rem;
+    padding: 3rem;
+    position: relative;
+    cursor: pointer;
+    transition: all ease 0.3s;
+  }
+  
+  .TechCart:hover {
+    background: var(--color-p);
+  }
+  
+  .TechCart:hover .number {
+    background: var(--white-background);
+    color: var(--color-p);
+  }
+  
+  .TechCart:hover .number h4 {
+    color: var(--color-p);
+  }
+  
+  .TechCart:hover .content h3 {
+    color: var(--white-background);
+  }
+  
+  .TechCart:hover .content p {
+    color: var(--white-background);
+  }
+  
+  .TechCart:hover .TechCart .icon {
+    color: var(--white-background);
+  }
+  
+  .TechCart .number {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 1rem;
+    background: var(--color-p);
+    border-radius: 0 0.9rem 0 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .TechCart .number h4 {
+    color: var(--white-background);
+    font-family: Cairo;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+
+  
+  .TechCart .content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .TechCart .content p {
+    color:black;
+    text-align: right;
+    font-family: Cairo;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  
+  .TechCart .content h3 {
+    color: #000;
+    text-align: center;
+    font-family: Cairo;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  
