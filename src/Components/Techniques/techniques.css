@@ -133,4 +133,14 @@
     line-height: normal;
     text-align: center;
   }
+  .BaseDivTechniques {
+    padding: 3rem 3rem;
+    width: 100%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    border-radius: 20px 20px 0px 0px;
+    background: #171836;
+  }
 }

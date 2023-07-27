@@ -6,13 +6,16 @@
 }
 
 .baseDivNav {
-  padding: 1rem 2rem;
-  background: transparent;
+  padding: 1.5rem 2rem;
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
   gap: 5rem;
   width: 100%;
   justify-items: center;
+  position: fixed;
+  background-color: white;
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.15);
+  z-index: 7;
 }
 
 .D_l {
@@ -110,7 +113,7 @@
   transform: rotate(180deg);
 }
 
-a{
+a {
   text-decoration: none;
 }
 
@@ -122,6 +125,9 @@ a{
     grid-template-columns: 1fr 1fr;
     gap: 5rem;
     width: 100%;
+    position: fixed;
+    background-color: white;
+    z-index: 7;
   }
   .linksNav {
     position: absolute;

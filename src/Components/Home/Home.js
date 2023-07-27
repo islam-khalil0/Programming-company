@@ -7,11 +7,13 @@ import { AiOutlineInstagram } from "react-icons/ai";
 import { CiTwitter } from "react-icons/ci";
 import { BsFacebook } from "react-icons/bs";
 import bgFilter from "../../images/bgFilter.png";
+import { BsWhatsapp } from "react-icons/bs";
 
 const Home = () => {
   return (
     <>
-      <img src={bgFilter} className="bgFilter" id="home"/>
+      <img src={bgFilter} className="bgFilter" id="home" />
+      <p className="iconWhats"><BsWhatsapp /></p>
       <div className="handleUnderDiv">
         <div className="baseDivHome">
           <div className="imageLending">

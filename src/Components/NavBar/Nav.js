@@ -6,7 +6,7 @@ import logo from "../../images/Ellipse 86.png";
 import { RiMenu3Line } from "react-icons/ri";
 
 const Nav = () => {
-  const [OpenMenu, setOpenMenu] = useState(true);
+  const [OpenMenu, setOpenMenu] = useState(false);
 
   useEffect(() => {
     console.log(OpenMenu);

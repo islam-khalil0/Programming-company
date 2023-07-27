@@ -161,6 +161,9 @@
 }
 
 @media screen and (max-width: 961px) {
+  .BaseDivProjects{
+    padding: 3rem 3rem;
+  }
   .BaseDivProjects .topProj h1 {
     color: #fff;
     text-align: center;

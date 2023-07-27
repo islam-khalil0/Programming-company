@@ -30,9 +30,10 @@ const Services = () => {
           slidesPerView="auto"
           navigation
           pagination={{ clickable: true }}
+          className="swiper"
         >
           {data.map((item) => (
-            <SwiperSlide key={item.id}>
+            <SwiperSlide key={item.id} className="swiper_slide">
               <ServicesCart {...item} />
             </SwiperSlide>
           ))}
